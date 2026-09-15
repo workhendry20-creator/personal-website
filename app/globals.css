@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #FBFBFB;
+  --text-primary: #1C1917;
+  --text-secondary: #78716C;
+  --border-color: #E7E5E4;
+}
+
+.dark {
+  --bg-color: #141414;
+  --text-primary: #F5F5F4;
+  --text-secondary: #A8A29E;
+  --border-color: #292524;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition-property: color, background-color, border-color;
+  transition-duration: 200ms;
+}
