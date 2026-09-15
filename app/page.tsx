@@ -190,7 +190,7 @@ export default function Home() {
               <ThemeToggle />
             </div>
 
-            <p className="text-xs text-text-secondary font-normal">
+            <p className="text-xs text-text-secondary font-normal hidden lg:block">
               Developed by{' '}
               <strong className="font-bold text-text-primary">
                 Hendry Bambang
@@ -386,6 +386,16 @@ export default function Home() {
               ))}
             </div>
           </section>
+
+          {/* Mobile Footer Credit - visible at the very bottom on mobile */}
+          <footer className="pt-8 pb-4 border-t border-border block lg:hidden">
+            <p className="text-xs text-text-secondary font-normal">
+              Developed by{' '}
+              <strong className="font-bold text-text-primary">
+                Hendry Bambang
+              </strong>
+            </p>
+          </footer>
         </main>
       </div>
     </div>
