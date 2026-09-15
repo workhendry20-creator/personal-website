@@ -16,6 +16,11 @@
   --border-color: #292524;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 html {
   scroll-behavior: smooth;
 }

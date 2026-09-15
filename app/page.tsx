@@ -149,10 +149,10 @@ const featuredProjects: FeaturedProject[] = [
 
 export default function Home() {
   return (
-    <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 overflow-x-hidden">
+    <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
       <div className="lg:grid lg:grid-cols-12 lg:gap-12 xl:gap-20 2xl:gap-28 min-h-screen">
         {/* Header Block on Mobile / Left Sticky Sidebar Column on Desktop */}
-        <aside className="lg:col-span-5 xl:col-span-4 lg:sticky lg:top-0 lg:h-screen lg:flex lg:flex-col lg:justify-between lg:py-14 pt-6 pb-6 border-b lg:border-b-0 border-border/80">
+        <aside className="lg:col-span-5 xl:col-span-4 lg:sticky lg:top-0 lg:h-screen lg:max-h-screen lg:flex lg:flex-col lg:justify-between lg:py-14 pt-6 pb-6 border-b lg:border-b-0 border-border/80">
           <div className="space-y-5 sm:space-y-6 flex flex-col items-start text-left">
             <div className="flex flex-col items-start text-left w-full space-y-3">
               <Image
