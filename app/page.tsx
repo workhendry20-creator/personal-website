@@ -156,7 +156,7 @@ export default function Home() {
           <div className="space-y-5 sm:space-y-6 flex flex-col items-start text-left">
             <div className="flex flex-col items-start text-left w-full space-y-3">
               <Image
-                src="/avatar.jpeg"
+                src="/final.jpg"
                 alt="Hendry Bambang Siswanto"
                 width={112}
                 height={112}

@@ -3,8 +3,13 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Hendry\'s Personal Space',
+  title: "Hendry's Personal Space",
   description: 'Personal space, thoughts, and projects by Hendry Bambang Siswanto',
+  icons: {
+    icon: '/avatar.jpeg',
+    shortcut: '/avatar.jpeg',
+    apple: '/avatar.jpeg',
+  },
 };
 
 export default function RootLayout({
