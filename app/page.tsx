@@ -22,28 +22,28 @@ const workExperiences: ExperienceItem[] = [
     company: 'Universiti Sains Malaysia',
     period: 'JUL - AUG 2026',
     description:
-      'Collaborated on cross-border scientific research focused on physical computational modeling and signal analysis.',
+      'Researched computational physics modeling and signal analysis, developing interactive simulation tools for scientific research.',
   },
   {
     role: 'Community Leader Intern',
     company: 'Gojek Bandung',
     period: 'APR - JUL 2025',
     description:
-      'Managed digital community operations, supported merchant initiatives, and optimized system performance.',
+      'Led community digital engagement and merchant platform initiatives to drive partner active participation and operational growth.',
   },
   {
     role: 'Data Analyst Intern',
     company: 'Ditjen Pajak Kanwil Jabar II',
     period: 'OCT 2024 - MAR 2025',
     description:
-      'Processed regional taxation datasets, conducted statistical analysis, and built structured data dashboards.',
+      'Analyzed regional taxpayer compliance datasets and constructed executive data dashboards for strategic analytical reporting.',
   },
   {
     role: 'Laboratory Assistant',
     company: 'UIN SGD Bandung',
     period: 'AUG - DEC 2024',
     description:
-      'Guided physics laboratory sessions, facilitated computational modeling experiments, and mentored students.',
+      'Instructed undergraduate physics lab courses, mentored student research, and facilitated computational simulation modules.',
   },
 ];
 
@@ -53,21 +53,21 @@ const organizationExperiences: ExperienceItem[] = [
     organization: 'Indonesian Youth Diplomacy (IYD) West Java',
     period: '2024 — Present',
     description:
-      'Directing regional youth diplomacy initiatives, public policy forums, and cross-generational exchange programs.',
+      'Spearheaded regional chapter operations, executive strategy, and youth policy dialogues for international diplomacy.',
   },
   {
     role: 'Founder',
     organization: 'Webtizen.id',
     period: '2023 — Present',
     description:
-      'Leading digital literacy advocacy and technology education platforms for Indonesian youth.',
+      'Established platform vision, product roadmap, and nationwide digital literacy programs for Indonesian youth.',
   },
   {
     role: 'Public Relations',
     organization: 'Jabar Bergerak Zillenial',
     period: '2023 - 2024',
     description:
-      'Managed public communications, media relations, and strategic partnerships for community initiatives.',
+      'Directed press communications, brand messaging, and strategic media partnerships for regional community outreach.',
   },
 ];
 

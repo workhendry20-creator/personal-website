@@ -3,7 +3,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Hendry Bambang Siswanto | Personal Space',
+  title: 'Hendry\'s Personal Space',
   description: 'Personal space, thoughts, and projects by Hendry Bambang Siswanto',
 };
 
