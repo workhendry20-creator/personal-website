@@ -22,28 +22,28 @@ const workExperiences: ExperienceItem[] = [
     company: 'Universiti Sains Malaysia',
     period: 'JUL - AUG 2026',
     description:
-      'Participated in cross-border scientific research collaboration, focusing on physical computational modeling and signal analysis.',
+      'Collaborated on cross-border scientific research focused on physical computational modeling and signal analysis.',
   },
   {
     role: 'Community Leader Intern',
     company: 'Gojek Bandung',
     period: 'APR - JUL 2025',
     description:
-      'Developing and maintaining community digital operations, assisting merchant platform initiatives, and optimizing system performance.',
+      'Managed digital community operations, supported merchant initiatives, and optimized system performance.',
   },
   {
     role: 'Data Analyst Intern',
     company: 'Ditjen Pajak Kanwil Jabar II',
     period: 'OCT 2024 - MAR 2025',
     description:
-      'Processed regional taxation datasets, performed statistical analytical reporting, and created structured data dashboards.',
+      'Processed regional taxation datasets, conducted statistical analysis, and built structured data dashboards.',
   },
   {
     role: 'Laboratory Assistant',
     company: 'UIN SGD Bandung',
     period: 'AUG - DEC 2024',
     description:
-      'Guided undergraduate physics laboratory sessions, facilitated computational modeling experiments, and mentored students.',
+      'Guided physics laboratory sessions, facilitated computational modeling experiments, and mentored students.',
   },
 ];
 
@@ -53,21 +53,21 @@ const organizationExperiences: ExperienceItem[] = [
     organization: 'Indonesian Youth Diplomacy (IYD) West Java',
     period: '2024 — Present',
     description:
-      'Directing regional youth diplomacy initiatives, public policy discussions, and cross-generational exchange programs in West Java.',
+      'Directing regional youth diplomacy initiatives, public policy forums, and cross-generational exchange programs.',
   },
   {
     role: 'Founder',
     organization: 'Webtizen.id',
     period: '2023 — Present',
     description:
-      'Leading the development of digital literacy advocacy and education platforms for Indonesian youth.',
+      'Leading digital literacy advocacy and technology education platforms for Indonesian youth.',
   },
   {
     role: 'Public Relations',
     organization: 'Jabar Bergerak Zillenial',
     period: '2023 - 2024',
     description:
-      'Crafting public narratives, managing communication channels, and building strategic partnerships to support community-focused initiatives across West Java.',
+      'Managed public communications, media relations, and strategic partnerships for community initiatives.',
   },
 ];
 
@@ -81,25 +81,25 @@ const expertiseCategories: ExpertiseCategory[] = [
   {
     title: 'Software & Web Engineering',
     description:
-      'Engineering structured, responsive, and high-performance digital applications using modern web technologies.',
+      'Engineering responsive, high-performance web applications using modern full-stack technologies.',
     items: ['TypeScript', 'Next.js', 'React', 'Tailwind CSS', 'Node.js', 'PostgreSQL', 'REST APIs'],
   },
   {
     title: 'Computational Physics & Vision',
     description:
-      'Applying computational modeling, image processing, and signal tracking to understand physical systems.',
+      'Applying computational modeling, image processing, and computer vision to analyze physical systems.',
     items: ['Python', 'OpenCV', 'Computer Vision', 'Physical Modeling', 'NumPy', 'Signal Processing'],
   },
   {
     title: 'Systems & Architecture',
     description:
-      'Designing robust information systems with focus on scalability, maintainability, and clean architecture.',
+      'Designing scalable system architectures with modern automated deployment pipelines and edge networks.',
     items: ['Information Systems Design', 'Git / GitHub', 'Automated CI/CD', 'Global CDN & Serverless Edge Network'],
   },
   {
     title: 'Leadership & Strategic Communication',
     description:
-      'Directing public communications, policy discussions, and strategic youth advocacy initiatives.',
+      'Directing public communications, youth advocacy, and strategic diplomacy initiatives.',
     items: ['Youth Diplomacy', 'Public Relations', 'Public Policy', 'Digital Literacy Advocacy'],
   },
 ];
@@ -121,7 +121,7 @@ const featuredProjects: FeaturedProject[] = [
     subtitle: 'Computational Physics & Simulation Engine',
     image: '/assets/project_img1.png',
     description:
-      'An interactive web-based physics simulation platform engineered during a research internship at Universiti Sains Malaysia. Developed to transform abstract physics models into dynamic, mathematically accurate digital experiments with real-time parameter tuning.',
+      'Interactive web physics simulation engine built at Universiti Sains Malaysia, converting physics models into real-time digital experiments.',
     tech: ['JavaScript', 'Python', 'HTML5 Canvas', 'Tailwind CSS'],
     link: '/projects/usm-physx-lab',
   },
@@ -131,7 +131,7 @@ const featuredProjects: FeaturedProject[] = [
     subtitle: 'Integrated Multi-Role School Dashboard',
     image: '/assets/project_img2.png',
     description:
-      'A multi-role administrative system and frontend web app designed to streamline educational reporting and track student growth. Features specialized dashboards for admins, teachers, and parents with structured data visualizations.',
+      'Multi-role administrative web app streamlining educational progress tracking with role-based dashboards for admins, teachers, and parents.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'REST API'],
     link: '/projects/sitka-frontend',
   },
@@ -141,7 +141,7 @@ const featuredProjects: FeaturedProject[] = [
     subtitle: 'Responsive Livestock Business Platform',
     image: '/assets/project_img3.png',
     description:
-      'A responsive digital landing page crafted for a local agricultural business to strengthen its online presence and showcase livestock offerings. Focuses on fast load performance, clean visual hierarchy, and intuitive user conversion flow.',
+      'Responsive web platform for a local livestock business, optimized for fast performance, clear visual hierarchy, and user conversion.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     link: '/projects/kandang-kang-iky',
   },
@@ -204,15 +204,15 @@ export default function Home() {
           {/* Flowing Narrative Story */}
           <section id="about" className="space-y-4 sm:space-y-5 text-xs sm:text-sm text-text-secondary leading-relaxed font-normal scroll-mt-6 lg:scroll-mt-14">
             <p>
-              As a recent double-major graduate in <strong className="font-bold text-text-primary">Information Systems</strong> and <strong className="font-bold text-text-primary">Physics</strong>, I bring a fresh, analytical perspective to problem-solving. My academic path taught me to bridge raw scientific logic with structured software engineering—giving me a strong foundation to launch my career in <strong className="font-bold text-text-primary">Web Development</strong> and <strong className="font-bold text-text-primary">Data Analytics</strong>. I&apos;m driven by a curiosity to understand complex systems, whether that means engineering intuitive digital interfaces or discovering actionable insights hidden within data.
+              Double-major graduate in <strong className="font-bold text-text-primary">Information Systems</strong> and <strong className="font-bold text-text-primary">Physics</strong>, combining scientific logic with software engineering. I build intuitive web applications and analyze complex datasets to deliver meaningful digital solutions.
             </p>
 
             <p>
-              I approach development with a focus on clarity, efficiency, and continuous adaptation. From crafting responsive web components to analyzing image datasets with <strong className="font-bold text-text-primary">Computer Vision</strong>, I value code quality and system performance. I actively integrate modern tools—including <strong className="font-bold text-text-primary">AI-assisted workflows</strong>—into my process to accelerate learning, refine logic, and build well-structured solutions without compromising core engineering principles.
+              Focused on clarity, system performance, and continuous adaptation. From developing responsive web components to analyzing visual datasets with <strong className="font-bold text-text-primary">Computer Vision</strong>, I integrate modern engineering practices and <strong className="font-bold text-text-primary">AI-assisted workflows</strong> to build robust software.
             </p>
 
             <p>
-              My technical growth is complemented by hands-on leadership experience, such as guiding regional youth initiatives as <strong className="font-bold text-text-primary">Deputy Chair</strong> at <strong className="font-bold text-text-primary">Indonesian Youth Diplomacy (IYD) West Java</strong> and founding <strong className="font-bold text-text-primary">Webtizen.id</strong> to empower local digital spaces. These roles honed my communication, project coordination, and strategic adaptability. Now, as I step into the industry, I am eager to join a forward-thinking team as an entry-level to junior <strong className="font-bold text-text-primary">Web Developer</strong> or <strong className="font-bold text-text-primary">Data Analyst</strong>, where I can contribute immediately while sharpening my technical skills.
+              My technical background is complemented by leadership as <strong className="font-bold text-text-primary">Deputy Chair</strong> at <strong className="font-bold text-text-primary">IYD West Java</strong> and founder of <strong className="font-bold text-text-primary">Webtizen.id</strong>. I am eager to contribute as an entry-level to junior <strong className="font-bold text-text-primary">Web Developer</strong> or <strong className="font-bold text-text-primary">Data Analyst</strong> in a forward-thinking team.
             </p>
           </section>
 
