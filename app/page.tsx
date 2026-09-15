@@ -94,7 +94,7 @@ const expertiseCategories: ExpertiseCategory[] = [
     title: 'Systems & Architecture',
     description:
       'Designing robust information systems with focus on scalability, maintainability, and clean architecture.',
-    items: ['Information Systems Design', 'Git / GitHub', 'System Architecture', 'Vercel Deployment'],
+    items: ['Information Systems Design', 'Git / GitHub', 'Automated CI/CD', 'Global CDN & Serverless Edge Network'],
   },
   {
     title: 'Leadership & Strategic Communication',
